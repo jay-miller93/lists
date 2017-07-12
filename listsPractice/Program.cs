@@ -110,12 +110,14 @@ namespace listsPractice
             //if movie is in list let user know it has been sent
 
             List<string> movies = new List<string>() { "The Fellowship Of The Ring", "The Two Towers", "The Return Of The King", "A New Hope", "Empire Strikes Back", "Return Of The Jedi", "The Phantom Menace" };
-            Console.WriteLine("Please select a movie for rental! If movie is not in list it will be added for you!");
-            Console.ReadLine();
+            Console.WriteLine("Please select a movie for rental! If movie is not in list it will be added for  you!");
+            string pickedMovie;
+            pickedMovie = Console.ReadLine();
 
-                if (movies.Contains() != )
+                if (movies.Contains(pickedMovie))
+                
             {
-                movies.Add(Console.ReadLine());
+                Console.WriteLine( );
             }
 
 
